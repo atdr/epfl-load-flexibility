@@ -1,1 +1,2016 @@
-{"SurveyEntry":{"SurveyID":"SV_2gdUHWsTxZNrbXn","SurveyName":"Dishwashers Survey","SurveyDescription":null,"SurveyOwnerID":"UR_0O0W7r1x5EPvCBv","SurveyBrandID":"imperial","DivisionID":"DV_1OlfCqAxhcmsMex","SurveyLanguage":"EN-GB","SurveyActiveResponseSet":"RS_2nnkWDZpDDobeO9","SurveyStatus":"Active","SurveyStartDate":"2020-05-15 00:00:00","SurveyExpirationDate":"2020-05-17 04:00:00","SurveyCreationDate":"2020-05-13 15:53:09","CreatorID":"UR_0O0W7r1x5EPvCBv","LastModified":"2020-05-15 03:18:29","LastAccessed":"0000-00-00 00:00:00","LastActivated":"2020-05-15 02:07:16","Deleted":null},"SurveyElements":[{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"BL","PrimaryAttribute":"Survey Blocks","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":[{"Type":"Default","Description":"Introduction","ID":"BL_ezjxY0CapA25M5T","BlockElements":[{"Type":"Question","QuestionID":"QID3"},{"Type":"Page Break"},{"Type":"Question","QuestionID":"QID5"},{"Type":"Question","QuestionID":"QID7"},{"Type":"Question","QuestionID":"QID13"},{"Type":"Page Break"},{"Type":"Question","QuestionID":"QID4"},{"Type":"Question","QuestionID":"QID21"}]},{"Type":"Trash","Description":"Trash \/ Unused Questions","ID":"BL_8r0JcfesbQcQdud","BlockElements":[{"Type":"Question","QuestionID":"QID1"},{"Type":"Question","QuestionID":"QID6"},{"Type":"Question","QuestionID":"QID8"},{"Type":"Question","QuestionID":"QID12"},{"Type":"Question","QuestionID":"QID11"},{"Type":"Question","QuestionID":"QID20"}]},{"Type":"Standard","SubType":"","Description":"Daily timings","ID":"BL_0V8MuIwgT5Ll2Lj","Options":{"BlockLocking":"false","RandomizeQuestions":"false","BlockVisibility":"Expanded","Looping":"Question","LoopingOptions":{"Locator":"q:\/\/QID21\/ChoiceGroup\/AllChoices?displayLogic=0","QID":"QID21","ChoiceGroupLocator":"q:\/\/QID21\/ChoiceGroup\/AllChoices?displayLogic=0","Static":{"1":[],"3":[]},"Randomization":"None"}},"BlockElements":[{"Type":"Question","QuestionID":"QID14"},{"Type":"Question","QuestionID":"QID2"},{"Type":"Page Break"},{"Type":"Question","QuestionID":"QID9"},{"Type":"Page Break"},{"Type":"Question","QuestionID":"QID10"}]},{"Type":"Standard","SubType":"","Description":"DSM introduction","ID":"BL_3UDmxXnj0UbvNc1","BlockElements":[{"Type":"Question","QuestionID":"QID15"},{"Type":"Question","QuestionID":"QID16"},{"Type":"Question","QuestionID":"QID17"},{"Type":"Question","QuestionID":"QID18"}]},{"Type":"Standard","SubType":"","Description":"DSM with discount","ID":"BL_4Zsx11i0v2Pp3Vz","BlockElements":[{"Type":"Question","QuestionID":"QID19"}],"Options":{"BlockLocking":"false","RandomizeQuestions":"false","Looping":"Static","LoopingOptions":{"Static":{"1":{"1":"10"},"2":{"1":"20"},"3":{"1":"30"},"4":{"1":"40"}},"Randomization":"Subset","TotalRandSubset":"2"}}}]},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"FL","PrimaryAttribute":"Survey Flow","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"Type":"Root","FlowID":"FL_1","Flow":[{"Type":"Block","ID":"BL_ezjxY0CapA25M5T","FlowID":"FL_2"},{"Type":"Standard","ID":"BL_0V8MuIwgT5Ll2Lj","FlowID":"FL_3"},{"Type":"Standard","ID":"BL_3UDmxXnj0UbvNc1","FlowID":"FL_5"},{"Type":"Standard","ID":"BL_4Zsx11i0v2Pp3Vz","FlowID":"FL_7"}],"Properties":{"Count":7,"RemovedFieldsets":[]}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SO","PrimaryAttribute":"Survey Options","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"BackButton":"true","SaveAndContinue":"true","SurveyProtection":"PublicSurvey","BallotBoxStuffingPrevention":"false","NoIndex":"Yes","SecureResponseFiles":"true","SurveyExpiration":"on","SurveyTermination":"DefaultMessage","Header":"","Footer":"","ProgressBarDisplay":"None","PartialData":"+4 hour","ValidationMessage":null,"PreviousButton":" \u2190 ","NextButton":" \u2192 ","SurveyTitle":"Dishwasher Habits","SkinLibrary":"imperial","SkinType":"templated","Skin":{"brandingId":"6039928230","templateId":"*base","overrides":null},"NewScoring":1,"AvailableLanguages":{"EN-GB":[],"FR":[]},"EOSMessage":"","ShowExportTags":"false","CollectGeoLocation":"false","SurveyMetaDescription":"Tell us how you use your dishwasher!","PasswordProtection":"No","AnonymizeResponse":"No","Password":"","RefererCheck":"No","RefererURL":"http:\/\/","UseCustomSurveyLinkCompletedMessage":null,"SurveyLinkCompletedMessage":"","SurveyLinkCompletedMessageLibrary":"","ResponseSummary":"No","EOSMessageLibrary":"","EOSRedirectURL":"https:\/\/","EmailThankYou":"false","ThankYouEmailMessageLibrary":null,"ThankYouEmailMessage":null,"ValidateMessage":"false","ValidationMessageLibrary":null,"InactiveSurvey":"DefaultMessage","PartialDataCloseAfter":"LastActivity","ActiveResponseSet":null,"InactiveMessageLibrary":"","InactiveMessage":"","SurveyLinkExpirationMessageType":"DefaultMessage","SurveyLinkExpirationMessage":"","SurveyLinkExpirationMessageLibrary":""}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SCO","PrimaryAttribute":"Scoring","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"ScoringCategories":[],"ScoringCategoryGroups":[],"ScoringSummaryCategory":null,"ScoringSummaryAfterQuestions":0,"ScoringSummaryAfterSurvey":0,"DefaultScoringCategory":null,"AutoScoringCategory":null}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"PROJ","PrimaryAttribute":"CORE","SecondaryAttribute":null,"TertiaryAttribute":"1.1.0","Payload":{"ProjectCategory":"CORE","SchemaVersion":"1.1.0"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"STAT","PrimaryAttribute":"Survey Statistics","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"MobileCompatible":false,"ID":"Survey Statistics"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"QC","PrimaryAttribute":"Survey Question Count","SecondaryAttribute":"21","TertiaryAttribute":null,"Payload":null},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID1","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DefaultChoices":false,"DataExportTag":"Q1","QuestionType":"Slider","Selector":"HSLIDER","Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":24,"GridLines":24,"SnapToGrid":true,"NumDecimals":"0","ShowValue":true,"CustomStart":true,"NotApplicable":false,"MobileFirst":true,"SliderStartPositions":{"1":0.333333333333333314829616256247390992939472198486328125,"2":0,"3":0}},"QuestionDescription":"Click to write the question text","Choices":{"1":{"Display":"Click to write Choice 1"},"2":{"Display":"Click to write Choice 2"},"3":{"Display":"Click to write Choice 3"}},"ChoiceOrder":["1","2","3"],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":[],"NextChoiceId":4,"NextAnswerId":25,"Labels":{"1":{"Display":"12 - 1am"},"2":{"Display":"1 - 2am"},"3":{"Display":"2-3am"},"4":{"Display":"3 - 4am"},"5":{"Display":"4 - 5am"},"6":{"Display":"5 - 6am"},"7":{"Display":"6 - 7am"},"8":{"Display":"7 - 8am"},"9":{"Display":"8 - 9am"},"10":{"Display":"9 - 10am"},"11":{"Display":"10 - 11am"},"12":{"Display":"11am - 12pm"},"13":{"Display":"12 - 1pm"},"14":{"Display":"1 - 2pm"},"15":{"Display":"2 - 3pm"},"16":{"Display":"3 - 4pm"},"17":{"Display":"4 - 5pm"},"18":{"Display":"5 - 6pm"},"19":{"Display":"6 - 7pm"},"20":{"Display":"7 - 8pm"},"21":{"Display":"8 - 9pm"},"22":{"Display":"9 - 10pm"},"23":{"Display":"10 - 11pm"},"24":{"Display":"11pm - 12am"}},"QuestionID":"QID1","Answers":{"1":{"Display":0},"2":{"Display":1},"3":{"Display":2},"4":{"Display":3},"5":{"Display":4},"6":{"Display":5},"7":{"Display":6},"8":{"Display":7},"9":{"Display":8},"10":{"Display":9},"11":{"Display":10},"12":{"Display":11},"13":{"Display":12},"14":{"Display":13},"15":{"Display":14},"16":{"Display":15},"17":{"Display":16},"18":{"Display":17},"19":{"Display":18},"20":{"Display":19},"21":{"Display":20},"22":{"Display":21},"23":{"Display":22},"24":{"Display":23},"25":{"Display":24}}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID6","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DefaultChoices":false,"DataExportTag":"Q6","QuestionType":"TE","Selector":"SL","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Click to write the question text","Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":[],"NextChoiceId":4,"NextAnswerId":1,"SearchSource":{"AllowFreeResponse":"false"},"QuestionID":"QID6"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID8","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DataExportTag":"Q8","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Click to write the question text","Choices":{"1":{"Display":"Click to write Choice 1"},"2":{"Display":"Click to write Choice 2"},"3":{"Display":"Click to write Choice 3"}},"ChoiceOrder":["1","2","3"],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"Language":[],"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID8"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID11","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DataExportTag":"Q11","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Click to write the question text","Choices":{"1":{"Display":"Click to write Choice 1"},"2":{"Display":"Click to write Choice 2"},"3":{"Display":"Click to write Choice 3"}},"ChoiceOrder":["1","2","3"],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"Language":[],"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID11"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID20","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DefaultChoices":false,"DataExportTag":"Q20","QuestionType":"Matrix","Selector":"Likert","SubSelector":"MultipleAnswer","Configuration":{"QuestionDescriptionOption":"UseText","TextPosition":"inline","ChoiceColumnWidth":25,"WhiteSpace":"OFF","MobileFirst":true},"QuestionDescription":"Click to write the question text","Choices":{"1":{"Display":"Click to write Statement 1"},"2":{"Display":"Click to write Statement 2"},"3":{"Display":"Click to write Statement 3"}},"ChoiceOrder":["1","2","3"],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None","MinChoices":null,"MaxChoices":null}},"GradingData":[],"Language":[],"NextChoiceId":4,"NextAnswerId":6,"Answers":{"1":{"Display":"Click to write Scale Point 1"},"2":{"Display":"Click to write Scale Point 2"},"3":{"Display":"Click to write Scale Point 3"},"4":{"Display":"Click to write Scale Point 4"},"5":{"Display":"Click to write Scale Point 5"}},"AnswerOrder":[1,2,3,4,5],"ChoiceDataExportTags":false,"QuestionID":"QID20"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"RS","PrimaryAttribute":"RS_2nnkWDZpDDobeO9","SecondaryAttribute":"Default Response Set","TertiaryAttribute":null,"Payload":null},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID5","SecondaryAttribute":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","TertiaryAttribute":null,"Payload":{"QuestionText":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","DefaultChoices":false,"DataExportTag":"Q2","QuestionType":"Slider","Selector":"HSLIDER","Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":15,"GridLines":5,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":false,"SliderStartPositions":{"1":0},"NotApplicable":true,"MobileFirst":true,"NotApplicableText":"Other"},"QuestionDescription":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","Choices":{"1":{"Display":"Number of runs per week"}},"ChoiceOrder":[1],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Tout d&#39;abord, en pensant \u00e0 une semaine typique, combien de fois en moyenne utilisez-vous le lave-vaisselle?","Choices":{"1":{"Display":"Nombre d'utilisations par semaine"}},"Labels":{"NA":{"Display":"Autre"}}}},"NextChoiceId":2,"NextAnswerId":6,"Labels":{"NA":{"Display":"Other"}},"QuestionID":"QID5","DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"First, thinking about a typical week, about how many times on average do you run the dishwasher?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID12","SecondaryAttribute":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","TertiaryAttribute":null,"Payload":{"QuestionText":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","DefaultChoices":false,"DataExportTag":"Q12","QuestionType":"Slider","Selector":"HSLIDER","DataVisibility":{"Private":false,"Hidden":false},"Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":10,"GridLines":5,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":false,"SliderStartPositions":{"1":0},"NotApplicable":true,"NotApplicableText":"Other","MobileFirst":true},"QuestionDescription":"First, thinking about a typical week, about how many times on average do you run the dishwasher?","Choices":{"1":{"Display":"Number of dishwasher runs per week"}},"ChoiceOrder":[1],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":[],"NextChoiceId":2,"NextAnswerId":6,"Labels":{"NA":{"Display":"Other"}},"QuestionID":"QID12"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID13","SecondaryAttribute":"Great, so you typically run your dishwasher ${q:\/\/QID5\/ChoiceNumericEntryValue\/1} times per week....","TertiaryAttribute":null,"Payload":{"QuestionText":"Great, so you typically run your dishwasher ${q:\/\/QID5\/ChoiceNumericEntryValue\/1} times per week.&nbsp;How is this split between weekdays and weekends?","DefaultChoices":false,"DataExportTag":"Q4","QuestionID":"QID13","QuestionType":"CS","Selector":"HSLIDER","DataVisibility":{"Private":false,"Hidden":false},"Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":10,"GridLines":5,"NumDecimals":"0","ShowValue":true,"CustomStart":false},"QuestionDescription":"Great, so you typically run your dishwasher ${q:\/\/QID5\/ChoiceNumericEntryValue\/1} times per week....","Choices":{"1":{"Display":"Number of runs on weekdays (Mon-Fri)"},"2":{"Display":"Number of runs on weekends (Sat-Sun)"}},"DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID5","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID5\/ChoiceNumericEntryValue\/1","Operator":"NotEmpty","QuestionIDFromLocator":"QID5","LeftOperand":"q:\/\/QID5\/ChoiceNumericEntryValue\/1","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">First, thinking about a typical week, about how many times on average do you run the dishwasher?<\/span> <span class=\"LeftOpDesc\">Number of runs per week<\/span> <span class=\"OpDesc\">Is Not Empty<\/span> "},"Type":"If"},"Type":"BooleanExpression","inPage":false},"ChoiceOrder":[1,2],"Validation":{"Settings":{"Type":"ChoicesTotal","ChoiceTotal":"${q:\/\/QID5\/ChoiceNumericEntryValue\/1}"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Parfait, vous utilisez donc g\u00e9n\u00e9ralement votre lave-vaisselle ${q:\/\/QID5\/ChoiceNumericEntryValue\/1} fois par semaine. Comment se r\u00e9partissent les utilisations entre les jours de semaine et les week-ends?","Choices":{"1":{"Display":"Nombre d'utilisations en semaine (du lundi au vendredi)"},"2":{"Display":"Nombre d'utilisations le week-end (samedi-dimanche)"}},"Labels":[]}},"NextChoiceId":3,"NextAnswerId":6,"Labels":[],"ClarifyingSymbolType":"None","QuestionText_Unsafe":"Great, so you typically run your dishwasher ${q:\/\/QID5\/ChoiceNumericEntryValue\/1} times per week.&nbsp;How is this split between weekdays and weekends?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID10","SecondaryAttribute":"Great, so you've told us that ${lm:\/\/Field\/1} you usually run the dishwasher between\u00a0...","TertiaryAttribute":null,"Payload":{"QuestionText":"Great, so you've told us that ${lm:\/\/Field\/1} you usually run the dishwasher <strong>between&nbsp;${q:\/\/QID9\/ChoiceNumericEntryValue\/1}:00 and&nbsp;${q:\/\/QID9\/ChoiceNumericEntryValue\/2}:00<\/strong>, with the most common time being&nbsp;<strong>${q:\/\/QID2\/ChoiceNumericEntryValue\/1}:00<\/strong>.","DefaultChoices":false,"DataExportTag":"Q9","QuestionType":"DB","Selector":"TB","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Great, so you've told us that ${lm:\/\/Field\/1} you usually run the dishwasher between\u00a0...","ChoiceOrder":[],"Validation":{"Settings":{"Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Tr\u00e8s bien, vous nous avez dit que ${lm:\/\/Field\/1} vous faisiez g\u00e9n\u00e9ralement fonctionner le lave-vaisselle <strong>entre ${q:\/\/QID9\/ChoiceNumericEntryValue\/1}h00 et ${q:\/\/QID9\/ChoiceNumericEntryValue\/2}h00<\/strong>, l'heure la plus courante \u00e9tant <strong>${q:\/\/QID2\/ChoiceNumericEntryValue\/1}h00<\/strong>."}},"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID10","DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"Great, so you&#39;ve told us that on&nbsp;${lm:\/\/Field\/1}s&nbsp;you usually run the dishwasher <strong>between&nbsp;${q:\/\/QID9\/ChoiceNumericEntryValue\/1}:00 and&nbsp;${q:\/\/QID9\/ChoiceNumericEntryValue\/2}:00<\/strong>, with the most common time being&nbsp;<strong>${q:\/\/QID2\/ChoiceNumericEntryValue\/1}:00<\/strong>."}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID17","SecondaryAttribute":"How many hours earlier or later than the usual start time would you be willing to let your dishwa...","TertiaryAttribute":null,"Payload":{"QuestionText":"How many hours <strong>earlier or later than the usual start time<\/strong> would you be willing to let your dishwasher operate?","DefaultChoices":false,"DataExportTag":"Q12","QuestionType":"Slider","Selector":"HSLIDER","Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":-12,"CSSliderMax":12,"GridLines":4,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":true,"SliderStartPositions":{"1":0.5,"2":0.5},"NotApplicable":false,"MobileFirst":true},"QuestionDescription":"How many hours earlier or later than the usual start time would you be willing to let your dishwa...","Choices":{"1":{"Display":"Earliest start"},"2":{"Display":"Latest start"}},"ChoiceOrder":[1,2],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"CustomValidation","CustomValidation":{"Logic":{"0":{"0":{"QuestionID":"QID17","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID17\/ChoiceNumericEntryValue\/1","Operator":"LessThanOrEqual","QuestionIDFromLocator":"QID17","LeftOperand":"q:\/\/QID17\/ChoiceNumericEntryValue\/1","RightOperand":"0","Type":"Expression","LogicType":"Question","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">Start time<\/span> <span class=\"OpDesc\">Is Less Than or Equal to<\/span> <span class=\"RightOpDesc\"> 0 <\/span>"},"1":{"QuestionID":"QID17","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID17\/ChoiceNumericEntryValue\/2","Operator":"GreaterThanOrEqual","QuestionIDFromLocator":"QID17","LeftOperand":"q:\/\/QID17\/ChoiceNumericEntryValue\/2","RightOperand":"0","Type":"Expression","LogicType":"Question","Description":"<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">End time<\/span> <span class=\"OpDesc\">Is Greater Than or Equal to<\/span> <span class=\"RightOpDesc\"> 0 <\/span>","Conjuction":"And"},"Type":"If"},"Type":"BooleanExpression"},"Message":{"messageID":null,"subMessageID":"VE_VALIDATION_FAILED","libraryID":null,"description":"Validation Failed"}}}},"GradingData":[],"Language":{"FR":{"QuestionText":"Combien d&#39;heures <strong>plus t\u00f4t ou plus tard que l&#39;heure de d\u00e9but habituelle<\/strong> seriez-vous pr\u00eat \u00e0 laisser votre lave-vaisselle fonctionner?","Choices":{"1":{"Display":"D\u00e9but le plus pr\u00e9coce"},"2":{"Display":"Dernier d\u00e9part"}},"Labels":{"1":{"Display":"12h avant"},"2":{"Display":"6h avant"},"3":{"Display":"Heure habituelle"},"4":{"Display":"6h plus tard"},"5":{"Display":"12h plus tard"}}}},"NextChoiceId":3,"NextAnswerId":6,"Labels":{"1":{"Display":"12h before"},"2":{"Display":"6h before"},"3":{"Display":"Usual time"},"4":{"Display":"6h later"},"5":{"Display":"12h later"}},"QuestionID":"QID17","DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID16","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID16\/SelectableChoice\/1","Operator":"Selected","QuestionIDFromLocator":"QID16","LeftOperand":"q:\/\/QID16\/SelectableChoice\/1","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?<\/span> <span class=\"LeftOpDesc\">Yes<\/span> <span class=\"OpDesc\">Is Selected<\/span> "},"Type":"If"},"Type":"BooleanExpression","inPage":false},"DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"How many hours <strong>earlier or later than the usual start time<\/strong> would you be willing to let your dishwasher operate?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID18","SecondaryAttribute":"If at certain hours of the day there is a discount on your electricity bill, would you be willing...","TertiaryAttribute":null,"Payload":{"QuestionText":"<strong>If at certain hours of the day there is a discount on your electricity bill<\/strong>, would you be willing to let the time at which your dishwasher operates be automatically adjusted?","DataExportTag":"Q13","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","DataVisibility":{"Private":false,"Hidden":false},"Configuration":{"QuestionDescriptionOption":"UseText","Autoscale":{"YScale":{"Name":"yesNo","Type":"likert","Reverse":false}}},"QuestionDescription":"If at certain hours of the day there is a discount on your electricity bill, would you be willing...","Choices":{"1":{"Display":"Yes"},"2":{"Display":"No"}},"ChoiceOrder":[1,2],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"Language":{"FR":{"QuestionText":"<strong>Si pour certaines heures de la journ\u00e9e vous pouviez b\u00e9n\u00e9ficier d'une remise sur votre facture d'\u00e9lectricit\u00e9<\/strong>, seriez-vous pr\u00eat \u00e0 r\u00e9gler automatiquement l'heure de fonctionnement de votre lave-vaisselle?","Choices":{"1":{"Display":"Oui"},"2":{"Display":"Non"}}}},"NextChoiceId":3,"NextAnswerId":1,"QuestionID":"QID18","DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID16","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID16\/SelectableChoice\/2","Operator":"Selected","QuestionIDFromLocator":"QID16","LeftOperand":"q:\/\/QID16\/SelectableChoice\/2","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?<\/span> <span class=\"LeftOpDesc\">No<\/span> <span class=\"OpDesc\">Is Selected<\/span> "},"Type":"If"},"Type":"BooleanExpression","inPage":false},"QuestionText_Unsafe":"<strong>If you received a discount on your electricity bill<\/strong>, would you be willing to let the time at which your dishwasher operates be automatically adjusted?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID3","SecondaryAttribute":"In this survey we'd like to understand how you use dishwashers in your household! Your responses...","TertiaryAttribute":null,"Payload":{"QuestionText":"In this survey we'd like to understand how you use dishwashers in your household!<div>Your responses will only be used for academic research.<\/div><div>PS: please try to answer based on your habits before the lock-down!<\/div>","DefaultChoices":false,"DataExportTag":"Q1","QuestionType":"DB","Selector":"TB","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"In this survey we'd like to understand how you use dishwashers in your household! Your responses...","ChoiceOrder":[],"Validation":{"Settings":{"Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Dans cette enqu\u00eate, nous aimerions comprendre comment vous utilisez votre lave-vaisselle dans votre foyer! <div><br><\/div><div> Vos r\u00e9ponses ne seront utilis\u00e9es que dans notre travail pour l'universit\u00e9.<\/div><div><br><\/div><div> PS: essayez de r\u00e9pondre en fonction de vos habitudes avant le confinement! <\/div>"}},"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID3","QuestionText_Unsafe":"In this survey we'd like to understand how you use dishwashers in your household!<div><br><\/div><div>Your responses will only be used for academic research.<\/div>","DataVisibility":{"Private":false,"Hidden":false}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID15","SecondaryAttribute":"Next we'd like to ask you about how willing you might be to change your dishwasher usage habits....","TertiaryAttribute":null,"Payload":{"QuestionText":"Next we'd like to ask you about how willing you might be to change your dishwasher usage habits.<div>By changing when we use home appliances like dishwashers, we can shift their electrical demand to a different time of day, reducing strain on the grid during peak hours.<\/div>","DefaultChoices":false,"DataExportTag":"Q10","QuestionType":"DB","Selector":"TB","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Next we'd like to ask you about how willing you might be to change your dishwasher usage habits....","ChoiceOrder":[],"Validation":{"Settings":{"Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Ensuite, nous aimerions vous demander si vous \u00eates pr\u00eat \u00e0 changer vos habitudes d'utilisation de votre lave-vaisselle. <div><br><\/div><div> En changeant lorsque nous utilisons des appareils \u00e9lectrom\u00e9nagers comme les lave-vaisselle, nous pouvons d\u00e9placer leur demande \u00e9lectrique \u00e0 une heure diff\u00e9rente de la journ\u00e9e, r\u00e9duisant ainsi la tension sur le r\u00e9seau aux heures de pointe. <\/div>"}},"NextChoiceId":11,"NextAnswerId":1,"QuestionID":"QID15","DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"Next we'd like to ask you about how willing you might be to change your dishwasher usage habits.<div><br><\/div><div>By changing when we use home appliances like dishwashers, we can shift their electrical demand to a different time of day, reducing strain on the grid during peak hours.<\/div>"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID4","SecondaryAttribute":"Next, we'd like to understand how your dishwasher usage varies by time of day","TertiaryAttribute":null,"Payload":{"QuestionText":"<div>Next, we'd like to understand how your dishwasher usage varies by time of day<\/div>","DefaultChoices":false,"DataExportTag":"Q5","QuestionType":"DB","Selector":"TB","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Next, we'd like to understand how your dishwasher usage varies by time of day","ChoiceOrder":[],"Validation":{"Settings":{"Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"<div> Ensuite, nous aimerions comprendre comment votre utilisation du lave-vaisselle varie selon l'heure de la journ\u00e9e <\/div>"}},"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID4","QuestionText_Unsafe":"<div>Next, we'd like to understand how your dishwasher usage varies by time of day<\/div>","DataVisibility":{"Private":false,"Hidden":false}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID14","SecondaryAttribute":"Please consider your dishwasher usage ${lm:\/\/Field\/1}","TertiaryAttribute":null,"Payload":{"QuestionText":"Please consider your dishwasher usage <b>${lm:\/\/Field\/1}<\/b>","DefaultChoices":false,"DataExportTag":"Q6","QuestionType":"DB","Selector":"TB","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Please consider your dishwasher usage ${lm:\/\/Field\/1}","ChoiceOrder":[],"Validation":{"Settings":{"Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Veuillez consid\u00e9rer l'utilisation de votre lave-vaisselle <b>${lm:\/\/Field\/1}<\/b>"}},"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID14","QuestionText_Unsafe":"Please consider your dishwasher usage <b>on ${lm:\/\/Field\/1}s<\/b>","DataVisibility":{"Private":false,"Hidden":false}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID7","SecondaryAttribute":"Please give further information: ${q:\/\/QID5\/QuestionText}","TertiaryAttribute":null,"Payload":{"QuestionText":"Please give further information:&nbsp;${q:\/\/QID5\/QuestionText}","DefaultChoices":false,"DataExportTag":"Q3","QuestionType":"TE","Selector":"SL","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Please give further information: ${q:\/\/QID5\/QuestionText}","DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID5","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID5\/ChoiceNumericEntryValue\/1","Operator":"Empty","QuestionIDFromLocator":"QID5","LeftOperand":"q:\/\/QID5\/ChoiceNumericEntryValue\/1","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">First, thinking about a typical week, about how many times on average do you run the dishwasher?<\/span> <span class=\"LeftOpDesc\">Number of runs per week<\/span> <span class=\"OpDesc\">Is Empty<\/span> "},"Type":"If"},"Type":"BooleanExpression","inPage":false},"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Veuillez donner de plus amples informations: ${q:\/\/QID5\/QuestionText}"}},"NextChoiceId":4,"NextAnswerId":1,"SearchSource":{"AllowFreeResponse":"false"},"QuestionID":"QID7","QuestionText_Unsafe":"Please give further information:&nbsp;${q:\/\/QID5\/QuestionText}","DataVisibility":{"Private":false,"Hidden":false}}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID9","SecondaryAttribute":"Thanks for telling us that you most frequently run the dishwasher at ...","TertiaryAttribute":null,"Payload":{"QuestionText":"Thanks for telling us that you most frequently run the dishwasher at&nbsp;${q:\/\/QID2\/ChoiceNumericEntryValue\/1}:00 ${lm:\/\/Field\/1}. Now we'd like to know how much this usual time varies","DefaultChoices":false,"DataExportTag":"Q8","QuestionType":"Slider","Selector":"HSLIDER","DataVisibility":{"Private":false,"Hidden":false},"Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":24,"GridLines":12,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":true,"SliderStartPositions":{"1":0.5,"2":0.5,"3":0.5},"NotApplicable":false,"CenterLabels":true,"MobileFirst":true},"QuestionDescription":"Thanks for telling us that you most frequently run the dishwasher at ...","Choices":{"1":{"Display":"Earliest usual time"},"2":{"Display":"Latest usual time"}},"ChoiceOrder":[1,2],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Merci de nous avoir dit que vous utilisiez le plus souvent le lave-vaisselle \u00e0 ${q:\/\/QID2\/ChoiceNumericEntryValue\/1}h00 ${lm:\/\/Field\/1}. Maintenant, nous aimerions savoir \u00e0 quel point cette heure habituelle varie","Choices":{"1":{"Display":"Heure habituelle la plus rapproch\u00e9e"},"2":{"Display":"Derni\u00e8re heure habituelle"}},"Labels":{"1":{"Display":"12h"},"2":{"Display":"6h"},"3":{"Display":"12h"},"4":{"Display":"18h"},"5":{"Display":"12h"}}}},"NextChoiceId":3,"NextAnswerId":6,"Labels":{"1":{"Display":"12am"},"2":{"Display":"6am"},"3":{"Display":"12pm"},"4":{"Display":"6pm"},"5":{"Display":"12am"}},"QuestionID":"QID9","QuestionText_Unsafe":"Thanks for telling us you most frequently run the dishwasher at&nbsp;${q:\/\/QID2\/ChoiceNumericEntryValue\/1}:00 on&nbsp;${lm:\/\/Field\/1}s. Now we'd like to know how much this usual time varies"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID2","SecondaryAttribute":"Typically what is the most common time you run your dishwasher ${lm:\/\/Field\/1}?","TertiaryAttribute":null,"Payload":{"QuestionText":"Typically what is the most common time you run your dishwasher ${lm:\/\/Field\/1}?","DefaultChoices":false,"DataExportTag":"Q7","QuestionType":"Slider","Selector":"HSLIDER","Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":0,"CSSliderMax":24,"GridLines":12,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":true,"NotApplicable":false,"MobileFirst":true,"SliderStartPositions":{"1":0.5,"2":0.5,"3":0.5},"CenterLabels":true},"QuestionDescription":"Typically what is the most common time you run your dishwasher ${lm:\/\/Field\/1}?","Choices":{"1":{"Display":"Most common time"}},"ChoiceOrder":[1],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"GradingData":[],"Language":{"FR":{"QuestionText":"Quel est g\u00e9n\u00e9ralement le moment le plus courant o\u00f9 vous faites fonctionner votre lave-vaisselle ${lm:\/\/Field\/1} ?","Choices":{"1":{"Display":"Moment le plus fr\u00e9quent"}},"Labels":{"1":{"Display":"12h"},"2":{"Display":"6h"},"3":{"Display":"12h"},"4":{"Display":"18h"},"5":{"Display":"12h"}}}},"NextChoiceId":2,"NextAnswerId":6,"Labels":{"1":{"Display":"12am"},"2":{"Display":"6am"},"3":{"Display":"12pm"},"4":{"Display":"6pm"},"5":{"Display":"12am"}},"QuestionID":"QID2","DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"Typically what is the most common time you run the dishwasher on&nbsp;${lm:\/\/Field\/1}s?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID19","SecondaryAttribute":"With a ${lm:\/\/Field\/1}%\u00a0discount on your electricity bill during certain hours of the day, how ma..","TertiaryAttribute":null,"Payload":{"QuestionText":"With a <strong>${lm:\/\/Field\/1}%&nbsp;discount<\/strong> on your electricity bill during certain hours of the day, how many hours <strong>earlier or later than the usual start time<\/strong> would you be willing to let your dishwasher operate?","DefaultChoices":false,"DataExportTag":"Q14","QuestionType":"Slider","Selector":"HSLIDER","DataVisibility":{"Private":false,"Hidden":false},"Configuration":{"QuestionDescriptionOption":"UseText","CSSliderMin":-12,"CSSliderMax":12,"GridLines":4,"SnapToGrid":false,"NumDecimals":"0","ShowValue":true,"CustomStart":true,"SliderStartPositions":{"1":0.5,"2":0.5},"NotApplicable":false,"MobileFirst":true},"QuestionDescription":"With a ${lm:\/\/Field\/1}%\u00a0discount on your electricity bill during certain hours of the day, how ma...","Choices":{"1":{"Display":"Earliest start"},"2":{"Display":"Latest start"}},"ChoiceOrder":[1,2],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"CustomValidation","CustomValidation":{"Logic":{"0":{"0":{"QuestionID":"QID17","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID17\/ChoiceNumericEntryValue\/1","Operator":"LessThanOrEqual","QuestionIDFromLocator":"QID17","LeftOperand":"q:\/\/QID17\/ChoiceNumericEntryValue\/1","RightOperand":"0","Type":"Expression","LogicType":"Question","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">Start time<\/span> <span class=\"OpDesc\">Is Less Than or Equal to<\/span> <span class=\"RightOpDesc\"> 0 <\/span>"},"1":{"QuestionID":"QID17","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID17\/ChoiceNumericEntryValue\/2","Operator":"GreaterThanOrEqual","QuestionIDFromLocator":"QID17","LeftOperand":"q:\/\/QID17\/ChoiceNumericEntryValue\/2","RightOperand":"0","Type":"Expression","LogicType":"Question","Description":"<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">End time<\/span> <span class=\"OpDesc\">Is Greater Than or Equal to<\/span> <span class=\"RightOpDesc\"> 0 <\/span>","Conjuction":"And"},"Type":"If"},"Type":"BooleanExpression"},"Message":{"messageID":null,"subMessageID":"VE_VALIDATION_FAILED","libraryID":null,"description":"Validation Failed"}}}},"GradingData":[],"Language":{"FR":{"QuestionText":"Avec une <strong>remise de ${lm:\/\/Field\/1}%<\/strong> sur votre facture d'\u00e9lectricit\u00e9&nbsp;pour certaines heures de la journ\u00e9e, combien d'heures <strong>plus t\u00f4t ou plus tard que l'heure de d\u00e9but habituelle<\/strong> seriez-vous pr\u00eat \u00e0 laisser votre lave-vaisselle fonctionner?","Choices":{"1":{"Display":"D\u00e9but le plus pr\u00e9coce"},"2":{"Display":"Dernier d\u00e9part"}},"Labels":{"1":{"Display":"12h avant"},"2":{"Display":"6h avant"},"3":{"Display":"Temps habituel"},"4":{"Display":"6h plus tard"},"5":{"Display":"12h plus tard"}}}},"NextChoiceId":3,"NextAnswerId":6,"Labels":{"1":{"Display":"12h before"},"2":{"Display":"6h before"},"3":{"Display":"Usual time"},"4":{"Display":"6h later"},"5":{"Display":"12h later"}},"QuestionID":"QID19","DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID16","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID16\/SelectableChoice\/1","Operator":"Selected","QuestionIDFromLocator":"QID16","LeftOperand":"q:\/\/QID16\/SelectableChoice\/1","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?<\/span> <span class=\"LeftOpDesc\">Yes<\/span> <span class=\"OpDesc\">Is Selected<\/span> "},"1":{"LogicType":"Question","QuestionID":"QID18","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID18\/SelectableChoice\/1","Operator":"Selected","QuestionIDFromLocator":"QID18","LeftOperand":"q:\/\/QID18\/SelectableChoice\/1","Type":"Expression","Description":"<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">If at certain hours of the day there is a discount on your electricity bill, would you be willing to let the time at which your dishwasher operates be automatically adjusted?<\/span> <span class=\"LeftOpDesc\">Yes<\/span> <span class=\"OpDesc\">Is Selected<\/span> ","Conjuction":"Or"},"Type":"If"},"Type":"BooleanExpression","inPage":false},"QuestionText_Unsafe":"With a <strong>${lm:\/\/Field\/1}%&nbsp;discount<\/strong> on your electricity bill, how many hours <strong>earlier or later than the usual start time<\/strong> would you be willing to let your dishwasher operate?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID16","SecondaryAttribute":"Would you be willing to let the time at which your dishwasher operates be automatically adjusted?","TertiaryAttribute":null,"Payload":{"QuestionText":"Would you be willing to let the time at which your dishwasher operates be automatically adjusted?","DataExportTag":"Q11","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","Configuration":{"QuestionDescriptionOption":"UseText","Autoscale":{"YScale":{"Name":"yesNo","Type":"likert","Reverse":false}}},"QuestionDescription":"Would you be willing to let the time at which your dishwasher operates be automatically adjusted?","Choices":{"1":{"Display":"Yes"},"2":{"Display":"No"}},"ChoiceOrder":[1,2],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"Language":{"FR":{"QuestionText":"Seriez-vous pr\u00eat \u00e0 r\u00e9gler automatiquement l&#39;heure de fonctionnement de votre lave-vaisselle?","Choices":{"1":{"Display":"Oui"},"2":{"Display":"Non"}}}},"NextChoiceId":3,"NextAnswerId":1,"QuestionID":"QID16","DataVisibility":{"Private":false,"Hidden":false},"QuestionText_Unsafe":"Would you be willing to let the time at which your dishwasher operates be automatically adjusted?"}},{"SurveyID":"SV_2gdUHWsTxZNrbXn","Element":"SQ","PrimaryAttribute":"QID21","SecondaryAttribute":"[translation hack]","TertiaryAttribute":null,"Payload":{"QuestionText":"[translation hack]","DataExportTag":"Q21","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"[translation hack]","Choices":{"1":{"Display":"on weekdays"},"3":{"Display":"on weekends"}},"ChoiceOrder":["1","3"],"Validation":{"Settings":{"ForceResponse":"OFF","ForceResponseType":"ON","Type":"None"}},"Language":{"EN":{"Choices":{"1":{"Display":"on weekdays"}}},"FR":{"QuestionText":"[hack de traduction]","Choices":{"1":{"Display":"en semaine"},"3":{"Display":"le weekend"}}}},"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID21","DisplayLogic":{"0":{"0":{"LogicType":"Question","QuestionID":"QID4","QuestionIsInLoop":"no","ChoiceLocator":"q:\/\/QID4\/DisplayableQuestion\/1","Operator":"NotDisplayed","QuestionIDFromLocator":"QID4","LeftOperand":"q:\/\/QID4\/QuestionDisplayed","Type":"Expression","Description":"<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Next, we'd like to understand how your dishwasher usage varies by time of day<\/span> <span class=\"LeftOpDesc\"><\/span> <span class=\"OpDesc\">Is Not Displayed<\/span> "},"Type":"If"},"Type":"BooleanExpression","inPage":false}}}]}
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_2gdUHWsTxZNrbXn",
+        "SurveyName": "Dishwashers Survey",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_0O0W7r1x5EPvCBv",
+        "SurveyBrandID": "imperial",
+        "DivisionID": "DV_1OlfCqAxhcmsMex",
+        "SurveyLanguage": "EN-GB",
+        "SurveyActiveResponseSet": "RS_2nnkWDZpDDobeO9",
+        "SurveyStatus": "Active",
+        "SurveyStartDate": "2020-05-15 00:00:00",
+        "SurveyExpirationDate": "2020-05-17 04:00:00",
+        "SurveyCreationDate": "2020-05-13 15:53:09",
+        "CreatorID": "UR_0O0W7r1x5EPvCBv",
+        "LastModified": "2020-05-15 03:18:29",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "2020-05-15 02:07:16",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": [
+                {
+                    "Type": "Default",
+                    "Description": "Introduction",
+                    "ID": "BL_ezjxY0CapA25M5T",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID3"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID5"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID7"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID13"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID4"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID21"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Trash",
+                    "Description": "Trash / Unused Questions",
+                    "ID": "BL_8r0JcfesbQcQdud",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID1"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID6"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID8"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID12"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID11"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID20"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Daily timings",
+                    "ID": "BL_0V8MuIwgT5Ll2Lj",
+                    "Options": {
+                        "BlockLocking": "false",
+                        "RandomizeQuestions": "false",
+                        "BlockVisibility": "Expanded",
+                        "Looping": "Question",
+                        "LoopingOptions": {
+                            "Locator": "q://QID21/ChoiceGroup/AllChoices?displayLogic=0",
+                            "QID": "QID21",
+                            "ChoiceGroupLocator": "q://QID21/ChoiceGroup/AllChoices?displayLogic=0",
+                            "Static": {
+                                "1": [],
+                                "3": []
+                            },
+                            "Randomization": "None"
+                        }
+                    },
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID14"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID2"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID9"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID10"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "DSM introduction",
+                    "ID": "BL_3UDmxXnj0UbvNc1",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID15"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID16"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID17"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID18"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "DSM with discount",
+                    "ID": "BL_4Zsx11i0v2Pp3Vz",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID19"
+                        }
+                    ],
+                    "Options": {
+                        "BlockLocking": "false",
+                        "RandomizeQuestions": "false",
+                        "Looping": "Static",
+                        "LoopingOptions": {
+                            "Static": {
+                                "1": {
+                                    "1": "10"
+                                },
+                                "2": {
+                                    "1": "20"
+                                },
+                                "3": {
+                                    "1": "30"
+                                },
+                                "4": {
+                                    "1": "40"
+                                }
+                            },
+                            "Randomization": "Subset",
+                            "TotalRandSubset": "2"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "Root",
+                "FlowID": "FL_1",
+                "Flow": [
+                    {
+                        "Type": "Block",
+                        "ID": "BL_ezjxY0CapA25M5T",
+                        "FlowID": "FL_2"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_0V8MuIwgT5Ll2Lj",
+                        "FlowID": "FL_3"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_3UDmxXnj0UbvNc1",
+                        "FlowID": "FL_5"
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_4Zsx11i0v2Pp3Vz",
+                        "FlowID": "FL_7"
+                    }
+                ],
+                "Properties": {
+                    "Count": 7,
+                    "RemovedFieldsets": []
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "true",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": "on",
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+4 hour",
+                "ValidationMessage": null,
+                "PreviousButton": " ← ",
+                "NextButton": " → ",
+                "SurveyTitle": "Dishwasher Habits",
+                "SkinLibrary": "imperial",
+                "SkinType": "templated",
+                "Skin": {
+                    "brandingId": "6039928230",
+                    "templateId": "*base",
+                    "overrides": null
+                },
+                "NewScoring": 1,
+                "AvailableLanguages": {
+                    "EN-GB": [],
+                    "FR": []
+                },
+                "EOSMessage": "",
+                "ShowExportTags": "false",
+                "CollectGeoLocation": "false",
+                "SurveyMetaDescription": "Tell us how you use your dishwasher!",
+                "PasswordProtection": "No",
+                "AnonymizeResponse": "No",
+                "Password": "",
+                "RefererCheck": "No",
+                "RefererURL": "http://",
+                "UseCustomSurveyLinkCompletedMessage": null,
+                "SurveyLinkCompletedMessage": "",
+                "SurveyLinkCompletedMessageLibrary": "",
+                "ResponseSummary": "No",
+                "EOSMessageLibrary": "",
+                "EOSRedirectURL": "https://",
+                "EmailThankYou": "false",
+                "ThankYouEmailMessageLibrary": null,
+                "ThankYouEmailMessage": null,
+                "ValidateMessage": "false",
+                "ValidationMessageLibrary": null,
+                "InactiveSurvey": "DefaultMessage",
+                "PartialDataCloseAfter": "LastActivity",
+                "ActiveResponseSet": null,
+                "InactiveMessageLibrary": "",
+                "InactiveMessage": "",
+                "SurveyLinkExpirationMessageType": "DefaultMessage",
+                "SurveyLinkExpirationMessage": "",
+                "SurveyLinkExpirationMessageLibrary": ""
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": {
+                "ProjectCategory": "CORE",
+                "SchemaVersion": "1.1.0"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": false,
+                "ID": "Survey Statistics"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "21",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID1",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DefaultChoices": false,
+                "DataExportTag": "Q1",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 24,
+                    "GridLines": 24,
+                    "SnapToGrid": true,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "NotApplicable": false,
+                    "MobileFirst": true,
+                    "SliderStartPositions": {
+                        "1": 0.333333333333333314829616256247390992939472198486328125,
+                        "2": 0,
+                        "3": 0
+                    }
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Choice 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Choice 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Choice 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 25,
+                "Labels": {
+                    "1": {
+                        "Display": "12 - 1am"
+                    },
+                    "2": {
+                        "Display": "1 - 2am"
+                    },
+                    "3": {
+                        "Display": "2-3am"
+                    },
+                    "4": {
+                        "Display": "3 - 4am"
+                    },
+                    "5": {
+                        "Display": "4 - 5am"
+                    },
+                    "6": {
+                        "Display": "5 - 6am"
+                    },
+                    "7": {
+                        "Display": "6 - 7am"
+                    },
+                    "8": {
+                        "Display": "7 - 8am"
+                    },
+                    "9": {
+                        "Display": "8 - 9am"
+                    },
+                    "10": {
+                        "Display": "9 - 10am"
+                    },
+                    "11": {
+                        "Display": "10 - 11am"
+                    },
+                    "12": {
+                        "Display": "11am - 12pm"
+                    },
+                    "13": {
+                        "Display": "12 - 1pm"
+                    },
+                    "14": {
+                        "Display": "1 - 2pm"
+                    },
+                    "15": {
+                        "Display": "2 - 3pm"
+                    },
+                    "16": {
+                        "Display": "3 - 4pm"
+                    },
+                    "17": {
+                        "Display": "4 - 5pm"
+                    },
+                    "18": {
+                        "Display": "5 - 6pm"
+                    },
+                    "19": {
+                        "Display": "6 - 7pm"
+                    },
+                    "20": {
+                        "Display": "7 - 8pm"
+                    },
+                    "21": {
+                        "Display": "8 - 9pm"
+                    },
+                    "22": {
+                        "Display": "9 - 10pm"
+                    },
+                    "23": {
+                        "Display": "10 - 11pm"
+                    },
+                    "24": {
+                        "Display": "11pm - 12am"
+                    }
+                },
+                "QuestionID": "QID1",
+                "Answers": {
+                    "1": {
+                        "Display": 0
+                    },
+                    "2": {
+                        "Display": 1
+                    },
+                    "3": {
+                        "Display": 2
+                    },
+                    "4": {
+                        "Display": 3
+                    },
+                    "5": {
+                        "Display": 4
+                    },
+                    "6": {
+                        "Display": 5
+                    },
+                    "7": {
+                        "Display": 6
+                    },
+                    "8": {
+                        "Display": 7
+                    },
+                    "9": {
+                        "Display": 8
+                    },
+                    "10": {
+                        "Display": 9
+                    },
+                    "11": {
+                        "Display": 10
+                    },
+                    "12": {
+                        "Display": 11
+                    },
+                    "13": {
+                        "Display": 12
+                    },
+                    "14": {
+                        "Display": 13
+                    },
+                    "15": {
+                        "Display": 14
+                    },
+                    "16": {
+                        "Display": 15
+                    },
+                    "17": {
+                        "Display": 16
+                    },
+                    "18": {
+                        "Display": 17
+                    },
+                    "19": {
+                        "Display": 18
+                    },
+                    "20": {
+                        "Display": 19
+                    },
+                    "21": {
+                        "Display": 20
+                    },
+                    "22": {
+                        "Display": 21
+                    },
+                    "23": {
+                        "Display": 22
+                    },
+                    "24": {
+                        "Display": 23
+                    },
+                    "25": {
+                        "Display": 24
+                    }
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID6",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DefaultChoices": false,
+                "DataExportTag": "Q6",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID6"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID8",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DataExportTag": "Q8",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Choice 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Choice 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Choice 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID8"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID11",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DataExportTag": "Q11",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Choice 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Choice 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Choice 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID11"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID20",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DefaultChoices": false,
+                "DataExportTag": "Q20",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "MultipleAnswer",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "WhiteSpace": "OFF",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Statement 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Statement 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Statement 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None",
+                        "MinChoices": null,
+                        "MaxChoices": null
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 6,
+                "Answers": {
+                    "1": {
+                        "Display": "Click to write Scale Point 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Scale Point 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Scale Point 3"
+                    },
+                    "4": {
+                        "Display": "Click to write Scale Point 4"
+                    },
+                    "5": {
+                        "Display": "Click to write Scale Point 5"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "ChoiceDataExportTags": false,
+                "QuestionID": "QID20"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_2nnkWDZpDDobeO9",
+            "SecondaryAttribute": "Default Response Set",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID5",
+            "SecondaryAttribute": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q2",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 15,
+                    "GridLines": 5,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": false,
+                    "SliderStartPositions": {
+                        "1": 0
+                    },
+                    "NotApplicable": true,
+                    "MobileFirst": true,
+                    "NotApplicableText": "Other"
+                },
+                "QuestionDescription": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+                "Choices": {
+                    "1": {
+                        "Display": "Number of runs per week"
+                    }
+                },
+                "ChoiceOrder": [
+                    1
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Tout d&#39;abord, en pensant à une semaine typique, combien de fois en moyenne utilisez-vous le lave-vaisselle?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Nombre d'utilisations par semaine"
+                            }
+                        },
+                        "Labels": {
+                            "NA": {
+                                "Display": "Autre"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 2,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "NA": {
+                        "Display": "Other"
+                    }
+                },
+                "QuestionID": "QID5",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "First, thinking about a typical week, about how many times on average do you run the dishwasher?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID12",
+            "SecondaryAttribute": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q12",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 10,
+                    "GridLines": 5,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": false,
+                    "SliderStartPositions": {
+                        "1": 0
+                    },
+                    "NotApplicable": true,
+                    "NotApplicableText": "Other",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "First, thinking about a typical week, about how many times on average do you run the dishwasher?",
+                "Choices": {
+                    "1": {
+                        "Display": "Number of dishwasher runs per week"
+                    }
+                },
+                "ChoiceOrder": [
+                    1
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 2,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "NA": {
+                        "Display": "Other"
+                    }
+                },
+                "QuestionID": "QID12"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID13",
+            "SecondaryAttribute": "Great, so you typically run your dishwasher ${q://QID5/ChoiceNumericEntryValue/1} times per week....",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Great, so you typically run your dishwasher ${q://QID5/ChoiceNumericEntryValue/1} times per week.&nbsp;How is this split between weekdays and weekends?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q4",
+                "QuestionID": "QID13",
+                "QuestionType": "CS",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 10,
+                    "GridLines": 5,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": false
+                },
+                "QuestionDescription": "Great, so you typically run your dishwasher ${q://QID5/ChoiceNumericEntryValue/1} times per week....",
+                "Choices": {
+                    "1": {
+                        "Display": "Number of runs on weekdays (Mon-Fri)"
+                    },
+                    "2": {
+                        "Display": "Number of runs on weekends (Sat-Sun)"
+                    }
+                },
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID5",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID5/ChoiceNumericEntryValue/1",
+                            "Operator": "NotEmpty",
+                            "QuestionIDFromLocator": "QID5",
+                            "LeftOperand": "q://QID5/ChoiceNumericEntryValue/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">First, thinking about a typical week, about how many times on average do you run the dishwasher?</span> <span class=\"LeftOpDesc\">Number of runs per week</span> <span class=\"OpDesc\">Is Not Empty</span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "Type": "ChoicesTotal",
+                        "ChoiceTotal": "${q://QID5/ChoiceNumericEntryValue/1}"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Parfait, vous utilisez donc généralement votre lave-vaisselle ${q://QID5/ChoiceNumericEntryValue/1} fois par semaine. Comment se répartissent les utilisations entre les jours de semaine et les week-ends?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Nombre d'utilisations en semaine (du lundi au vendredi)"
+                            },
+                            "2": {
+                                "Display": "Nombre d'utilisations le week-end (samedi-dimanche)"
+                            }
+                        },
+                        "Labels": []
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 6,
+                "Labels": [],
+                "ClarifyingSymbolType": "None",
+                "QuestionText_Unsafe": "Great, so you typically run your dishwasher ${q://QID5/ChoiceNumericEntryValue/1} times per week.&nbsp;How is this split between weekdays and weekends?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID10",
+            "SecondaryAttribute": "Great, so you've told us that ${lm://Field/1} you usually run the dishwasher between ...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Great, so you've told us that ${lm://Field/1} you usually run the dishwasher <strong>between&nbsp;${q://QID9/ChoiceNumericEntryValue/1}:00 and&nbsp;${q://QID9/ChoiceNumericEntryValue/2}:00</strong>, with the most common time being&nbsp;<strong>${q://QID2/ChoiceNumericEntryValue/1}:00</strong>.",
+                "DefaultChoices": false,
+                "DataExportTag": "Q9",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Great, so you've told us that ${lm://Field/1} you usually run the dishwasher between ...",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Très bien, vous nous avez dit que ${lm://Field/1} vous faisiez généralement fonctionner le lave-vaisselle <strong>entre ${q://QID9/ChoiceNumericEntryValue/1}h00 et ${q://QID9/ChoiceNumericEntryValue/2}h00</strong>, l'heure la plus courante étant <strong>${q://QID2/ChoiceNumericEntryValue/1}h00</strong>."
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID10",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "Great, so you&#39;ve told us that on&nbsp;${lm://Field/1}s&nbsp;you usually run the dishwasher <strong>between&nbsp;${q://QID9/ChoiceNumericEntryValue/1}:00 and&nbsp;${q://QID9/ChoiceNumericEntryValue/2}:00</strong>, with the most common time being&nbsp;<strong>${q://QID2/ChoiceNumericEntryValue/1}:00</strong>."
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID17",
+            "SecondaryAttribute": "How many hours earlier or later than the usual start time would you be willing to let your dishwa...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "How many hours <strong>earlier or later than the usual start time</strong> would you be willing to let your dishwasher operate?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q12",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": -12,
+                    "CSSliderMax": 12,
+                    "GridLines": 4,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5
+                    },
+                    "NotApplicable": false,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "How many hours earlier or later than the usual start time would you be willing to let your dishwa...",
+                "Choices": {
+                    "1": {
+                        "Display": "Earliest start"
+                    },
+                    "2": {
+                        "Display": "Latest start"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "CustomValidation",
+                        "CustomValidation": {
+                            "Logic": {
+                                "0": {
+                                    "0": {
+                                        "QuestionID": "QID17",
+                                        "QuestionIsInLoop": "no",
+                                        "ChoiceLocator": "q://QID17/ChoiceNumericEntryValue/1",
+                                        "Operator": "LessThanOrEqual",
+                                        "QuestionIDFromLocator": "QID17",
+                                        "LeftOperand": "q://QID17/ChoiceNumericEntryValue/1",
+                                        "RightOperand": "0",
+                                        "Type": "Expression",
+                                        "LogicType": "Question",
+                                        "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\"></span> <span class=\"LeftOpDesc\">Start time</span> <span class=\"OpDesc\">Is Less Than or Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+                                    },
+                                    "1": {
+                                        "QuestionID": "QID17",
+                                        "QuestionIsInLoop": "no",
+                                        "ChoiceLocator": "q://QID17/ChoiceNumericEntryValue/2",
+                                        "Operator": "GreaterThanOrEqual",
+                                        "QuestionIDFromLocator": "QID17",
+                                        "LeftOperand": "q://QID17/ChoiceNumericEntryValue/2",
+                                        "RightOperand": "0",
+                                        "Type": "Expression",
+                                        "LogicType": "Question",
+                                        "Description": "<span class=\"ConjDesc\">And</span> <span class=\"QuestionDesc\"></span> <span class=\"LeftOpDesc\">End time</span> <span class=\"OpDesc\">Is Greater Than or Equal to</span> <span class=\"RightOpDesc\"> 0 </span>",
+                                        "Conjuction": "And"
+                                    },
+                                    "Type": "If"
+                                },
+                                "Type": "BooleanExpression"
+                            },
+                            "Message": {
+                                "messageID": null,
+                                "subMessageID": "VE_VALIDATION_FAILED",
+                                "libraryID": null,
+                                "description": "Validation Failed"
+                            }
+                        }
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Combien d&#39;heures <strong>plus tôt ou plus tard que l&#39;heure de début habituelle</strong> seriez-vous prêt à laisser votre lave-vaisselle fonctionner?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Début le plus précoce"
+                            },
+                            "2": {
+                                "Display": "Dernier départ"
+                            }
+                        },
+                        "Labels": {
+                            "1": {
+                                "Display": "12h avant"
+                            },
+                            "2": {
+                                "Display": "6h avant"
+                            },
+                            "3": {
+                                "Display": "Heure habituelle"
+                            },
+                            "4": {
+                                "Display": "6h plus tard"
+                            },
+                            "5": {
+                                "Display": "12h plus tard"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "12h before"
+                    },
+                    "2": {
+                        "Display": "6h before"
+                    },
+                    "3": {
+                        "Display": "Usual time"
+                    },
+                    "4": {
+                        "Display": "6h later"
+                    },
+                    "5": {
+                        "Display": "12h later"
+                    }
+                },
+                "QuestionID": "QID17",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID16",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID16/SelectableChoice/1",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID16",
+                            "LeftOperand": "q://QID16/SelectableChoice/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?</span> <span class=\"LeftOpDesc\">Yes</span> <span class=\"OpDesc\">Is Selected</span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "How many hours <strong>earlier or later than the usual start time</strong> would you be willing to let your dishwasher operate?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID18",
+            "SecondaryAttribute": "If at certain hours of the day there is a discount on your electricity bill, would you be willing...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "<strong>If at certain hours of the day there is a discount on your electricity bill</strong>, would you be willing to let the time at which your dishwasher operates be automatically adjusted?",
+                "DataExportTag": "Q13",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "Autoscale": {
+                        "YScale": {
+                            "Name": "yesNo",
+                            "Type": "likert",
+                            "Reverse": false
+                        }
+                    }
+                },
+                "QuestionDescription": "If at certain hours of the day there is a discount on your electricity bill, would you be willing...",
+                "Choices": {
+                    "1": {
+                        "Display": "Yes"
+                    },
+                    "2": {
+                        "Display": "No"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": {
+                    "FR": {
+                        "QuestionText": "<strong>Si pour certaines heures de la journée vous pouviez bénéficier d'une remise sur votre facture d'électricité</strong>, seriez-vous prêt à régler automatiquement l'heure de fonctionnement de votre lave-vaisselle?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Oui"
+                            },
+                            "2": {
+                                "Display": "Non"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 1,
+                "QuestionID": "QID18",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID16",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID16/SelectableChoice/2",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID16",
+                            "LeftOperand": "q://QID16/SelectableChoice/2",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?</span> <span class=\"LeftOpDesc\">No</span> <span class=\"OpDesc\">Is Selected</span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "QuestionText_Unsafe": "<strong>If you received a discount on your electricity bill</strong>, would you be willing to let the time at which your dishwasher operates be automatically adjusted?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID3",
+            "SecondaryAttribute": "In this survey we'd like to understand how you use dishwashers in your household! Your responses...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "In this survey we'd like to understand how you use dishwashers in your household!<div>Your responses will only be used for academic research.</div><div>PS: please try to answer based on your habits before the lock-down!</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q1",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "In this survey we'd like to understand how you use dishwashers in your household! Your responses...",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Dans cette enquête, nous aimerions comprendre comment vous utilisez votre lave-vaisselle dans votre foyer! <div><br></div><div> Vos réponses ne seront utilisées que dans notre travail pour l'université.</div><div><br></div><div> PS: essayez de répondre en fonction de vos habitudes avant le confinement! </div>"
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID3",
+                "QuestionText_Unsafe": "In this survey we'd like to understand how you use dishwashers in your household!<div><br></div><div>Your responses will only be used for academic research.</div>",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID15",
+            "SecondaryAttribute": "Next we'd like to ask you about how willing you might be to change your dishwasher usage habits....",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Next we'd like to ask you about how willing you might be to change your dishwasher usage habits.<div>By changing when we use home appliances like dishwashers, we can shift their electrical demand to a different time of day, reducing strain on the grid during peak hours.</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q10",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Next we'd like to ask you about how willing you might be to change your dishwasher usage habits....",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Ensuite, nous aimerions vous demander si vous êtes prêt à changer vos habitudes d'utilisation de votre lave-vaisselle. <div><br></div><div> En changeant lorsque nous utilisons des appareils électroménagers comme les lave-vaisselle, nous pouvons déplacer leur demande électrique à une heure différente de la journée, réduisant ainsi la tension sur le réseau aux heures de pointe. </div>"
+                    }
+                },
+                "NextChoiceId": 11,
+                "NextAnswerId": 1,
+                "QuestionID": "QID15",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "Next we'd like to ask you about how willing you might be to change your dishwasher usage habits.<div><br></div><div>By changing when we use home appliances like dishwashers, we can shift their electrical demand to a different time of day, reducing strain on the grid during peak hours.</div>"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID4",
+            "SecondaryAttribute": "Next, we'd like to understand how your dishwasher usage varies by time of day",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "<div>Next, we'd like to understand how your dishwasher usage varies by time of day</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q5",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Next, we'd like to understand how your dishwasher usage varies by time of day",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "<div> Ensuite, nous aimerions comprendre comment votre utilisation du lave-vaisselle varie selon l'heure de la journée </div>"
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID4",
+                "QuestionText_Unsafe": "<div>Next, we'd like to understand how your dishwasher usage varies by time of day</div>",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID14",
+            "SecondaryAttribute": "Please consider your dishwasher usage ${lm://Field/1}",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please consider your dishwasher usage <b>${lm://Field/1}</b>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q6",
+                "QuestionType": "DB",
+                "Selector": "TB",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Please consider your dishwasher usage ${lm://Field/1}",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Veuillez considérer l'utilisation de votre lave-vaisselle <b>${lm://Field/1}</b>"
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID14",
+                "QuestionText_Unsafe": "Please consider your dishwasher usage <b>on ${lm://Field/1}s</b>",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID7",
+            "SecondaryAttribute": "Please give further information: ${q://QID5/QuestionText}",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Please give further information:&nbsp;${q://QID5/QuestionText}",
+                "DefaultChoices": false,
+                "DataExportTag": "Q3",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Please give further information: ${q://QID5/QuestionText}",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID5",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID5/ChoiceNumericEntryValue/1",
+                            "Operator": "Empty",
+                            "QuestionIDFromLocator": "QID5",
+                            "LeftOperand": "q://QID5/ChoiceNumericEntryValue/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">First, thinking about a typical week, about how many times on average do you run the dishwasher?</span> <span class=\"LeftOpDesc\">Number of runs per week</span> <span class=\"OpDesc\">Is Empty</span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Veuillez donner de plus amples informations: ${q://QID5/QuestionText}"
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID7",
+                "QuestionText_Unsafe": "Please give further information:&nbsp;${q://QID5/QuestionText}",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID9",
+            "SecondaryAttribute": "Thanks for telling us that you most frequently run the dishwasher at ...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Thanks for telling us that you most frequently run the dishwasher at&nbsp;${q://QID2/ChoiceNumericEntryValue/1}:00 ${lm://Field/1}. Now we'd like to know how much this usual time varies",
+                "DefaultChoices": false,
+                "DataExportTag": "Q8",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 24,
+                    "GridLines": 12,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5
+                    },
+                    "NotApplicable": false,
+                    "CenterLabels": true,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Thanks for telling us that you most frequently run the dishwasher at ...",
+                "Choices": {
+                    "1": {
+                        "Display": "Earliest usual time"
+                    },
+                    "2": {
+                        "Display": "Latest usual time"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Merci de nous avoir dit que vous utilisiez le plus souvent le lave-vaisselle à ${q://QID2/ChoiceNumericEntryValue/1}h00 ${lm://Field/1}. Maintenant, nous aimerions savoir à quel point cette heure habituelle varie",
+                        "Choices": {
+                            "1": {
+                                "Display": "Heure habituelle la plus rapprochée"
+                            },
+                            "2": {
+                                "Display": "Dernière heure habituelle"
+                            }
+                        },
+                        "Labels": {
+                            "1": {
+                                "Display": "12h"
+                            },
+                            "2": {
+                                "Display": "6h"
+                            },
+                            "3": {
+                                "Display": "12h"
+                            },
+                            "4": {
+                                "Display": "18h"
+                            },
+                            "5": {
+                                "Display": "12h"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "12am"
+                    },
+                    "2": {
+                        "Display": "6am"
+                    },
+                    "3": {
+                        "Display": "12pm"
+                    },
+                    "4": {
+                        "Display": "6pm"
+                    },
+                    "5": {
+                        "Display": "12am"
+                    }
+                },
+                "QuestionID": "QID9",
+                "QuestionText_Unsafe": "Thanks for telling us you most frequently run the dishwasher at&nbsp;${q://QID2/ChoiceNumericEntryValue/1}:00 on&nbsp;${lm://Field/1}s. Now we'd like to know how much this usual time varies"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID2",
+            "SecondaryAttribute": "Typically what is the most common time you run your dishwasher ${lm://Field/1}?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Typically what is the most common time you run your dishwasher ${lm://Field/1}?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q7",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 24,
+                    "GridLines": 12,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "NotApplicable": false,
+                    "MobileFirst": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5
+                    },
+                    "CenterLabels": true
+                },
+                "QuestionDescription": "Typically what is the most common time you run your dishwasher ${lm://Field/1}?",
+                "Choices": {
+                    "1": {
+                        "Display": "Most common time"
+                    }
+                },
+                "ChoiceOrder": [
+                    1
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Quel est généralement le moment le plus courant où vous faites fonctionner votre lave-vaisselle ${lm://Field/1} ?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Moment le plus fréquent"
+                            }
+                        },
+                        "Labels": {
+                            "1": {
+                                "Display": "12h"
+                            },
+                            "2": {
+                                "Display": "6h"
+                            },
+                            "3": {
+                                "Display": "12h"
+                            },
+                            "4": {
+                                "Display": "18h"
+                            },
+                            "5": {
+                                "Display": "12h"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 2,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "12am"
+                    },
+                    "2": {
+                        "Display": "6am"
+                    },
+                    "3": {
+                        "Display": "12pm"
+                    },
+                    "4": {
+                        "Display": "6pm"
+                    },
+                    "5": {
+                        "Display": "12am"
+                    }
+                },
+                "QuestionID": "QID2",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "Typically what is the most common time you run the dishwasher on&nbsp;${lm://Field/1}s?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID19",
+            "SecondaryAttribute": "With a ${lm://Field/1}% discount on your electricity bill during certain hours of the day, how ma..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "With a <strong>${lm://Field/1}%&nbsp;discount</strong> on your electricity bill during certain hours of the day, how many hours <strong>earlier or later than the usual start time</strong> would you be willing to let your dishwasher operate?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q14",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": -12,
+                    "CSSliderMax": 12,
+                    "GridLines": 4,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5
+                    },
+                    "NotApplicable": false,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "With a ${lm://Field/1}% discount on your electricity bill during certain hours of the day, how ma...",
+                "Choices": {
+                    "1": {
+                        "Display": "Earliest start"
+                    },
+                    "2": {
+                        "Display": "Latest start"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "CustomValidation",
+                        "CustomValidation": {
+                            "Logic": {
+                                "0": {
+                                    "0": {
+                                        "QuestionID": "QID17",
+                                        "QuestionIsInLoop": "no",
+                                        "ChoiceLocator": "q://QID17/ChoiceNumericEntryValue/1",
+                                        "Operator": "LessThanOrEqual",
+                                        "QuestionIDFromLocator": "QID17",
+                                        "LeftOperand": "q://QID17/ChoiceNumericEntryValue/1",
+                                        "RightOperand": "0",
+                                        "Type": "Expression",
+                                        "LogicType": "Question",
+                                        "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\"></span> <span class=\"LeftOpDesc\">Start time</span> <span class=\"OpDesc\">Is Less Than or Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+                                    },
+                                    "1": {
+                                        "QuestionID": "QID17",
+                                        "QuestionIsInLoop": "no",
+                                        "ChoiceLocator": "q://QID17/ChoiceNumericEntryValue/2",
+                                        "Operator": "GreaterThanOrEqual",
+                                        "QuestionIDFromLocator": "QID17",
+                                        "LeftOperand": "q://QID17/ChoiceNumericEntryValue/2",
+                                        "RightOperand": "0",
+                                        "Type": "Expression",
+                                        "LogicType": "Question",
+                                        "Description": "<span class=\"ConjDesc\">And</span> <span class=\"QuestionDesc\"></span> <span class=\"LeftOpDesc\">End time</span> <span class=\"OpDesc\">Is Greater Than or Equal to</span> <span class=\"RightOpDesc\"> 0 </span>",
+                                        "Conjuction": "And"
+                                    },
+                                    "Type": "If"
+                                },
+                                "Type": "BooleanExpression"
+                            },
+                            "Message": {
+                                "messageID": null,
+                                "subMessageID": "VE_VALIDATION_FAILED",
+                                "libraryID": null,
+                                "description": "Validation Failed"
+                            }
+                        }
+                    }
+                },
+                "GradingData": [],
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Avec une <strong>remise de ${lm://Field/1}%</strong> sur votre facture d'électricité&nbsp;pour certaines heures de la journée, combien d'heures <strong>plus tôt ou plus tard que l'heure de début habituelle</strong> seriez-vous prêt à laisser votre lave-vaisselle fonctionner?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Début le plus précoce"
+                            },
+                            "2": {
+                                "Display": "Dernier départ"
+                            }
+                        },
+                        "Labels": {
+                            "1": {
+                                "Display": "12h avant"
+                            },
+                            "2": {
+                                "Display": "6h avant"
+                            },
+                            "3": {
+                                "Display": "Temps habituel"
+                            },
+                            "4": {
+                                "Display": "6h plus tard"
+                            },
+                            "5": {
+                                "Display": "12h plus tard"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "12h before"
+                    },
+                    "2": {
+                        "Display": "6h before"
+                    },
+                    "3": {
+                        "Display": "Usual time"
+                    },
+                    "4": {
+                        "Display": "6h later"
+                    },
+                    "5": {
+                        "Display": "12h later"
+                    }
+                },
+                "QuestionID": "QID19",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID16",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID16/SelectableChoice/1",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID16",
+                            "LeftOperand": "q://QID16/SelectableChoice/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Would you be willing to let the time at which your dishwasher operates be automatically adjusted?</span> <span class=\"LeftOpDesc\">Yes</span> <span class=\"OpDesc\">Is Selected</span> "
+                        },
+                        "1": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID18",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID18/SelectableChoice/1",
+                            "Operator": "Selected",
+                            "QuestionIDFromLocator": "QID18",
+                            "LeftOperand": "q://QID18/SelectableChoice/1",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">Or</span> <span class=\"QuestionDesc\">If at certain hours of the day there is a discount on your electricity bill, would you be willing to let the time at which your dishwasher operates be automatically adjusted?</span> <span class=\"LeftOpDesc\">Yes</span> <span class=\"OpDesc\">Is Selected</span> ",
+                            "Conjuction": "Or"
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "QuestionText_Unsafe": "With a <strong>${lm://Field/1}%&nbsp;discount</strong> on your electricity bill, how many hours <strong>earlier or later than the usual start time</strong> would you be willing to let your dishwasher operate?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID16",
+            "SecondaryAttribute": "Would you be willing to let the time at which your dishwasher operates be automatically adjusted?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Would you be willing to let the time at which your dishwasher operates be automatically adjusted?",
+                "DataExportTag": "Q11",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "Autoscale": {
+                        "YScale": {
+                            "Name": "yesNo",
+                            "Type": "likert",
+                            "Reverse": false
+                        }
+                    }
+                },
+                "QuestionDescription": "Would you be willing to let the time at which your dishwasher operates be automatically adjusted?",
+                "Choices": {
+                    "1": {
+                        "Display": "Yes"
+                    },
+                    "2": {
+                        "Display": "No"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": {
+                    "FR": {
+                        "QuestionText": "Seriez-vous prêt à régler automatiquement l&#39;heure de fonctionnement de votre lave-vaisselle?",
+                        "Choices": {
+                            "1": {
+                                "Display": "Oui"
+                            },
+                            "2": {
+                                "Display": "Non"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 3,
+                "NextAnswerId": 1,
+                "QuestionID": "QID16",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "Would you be willing to let the time at which your dishwasher operates be automatically adjusted?"
+            }
+        },
+        {
+            "SurveyID": "SV_2gdUHWsTxZNrbXn",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID21",
+            "SecondaryAttribute": "[translation hack]",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "[translation hack]",
+                "DataExportTag": "Q21",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "[translation hack]",
+                "Choices": {
+                    "1": {
+                        "Display": "on weekdays"
+                    },
+                    "3": {
+                        "Display": "on weekends"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": {
+                    "EN": {
+                        "Choices": {
+                            "1": {
+                                "Display": "on weekdays"
+                            }
+                        }
+                    },
+                    "FR": {
+                        "QuestionText": "[hack de traduction]",
+                        "Choices": {
+                            "1": {
+                                "Display": "en semaine"
+                            },
+                            "3": {
+                                "Display": "le weekend"
+                            }
+                        }
+                    }
+                },
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID21",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "Question",
+                            "QuestionID": "QID4",
+                            "QuestionIsInLoop": "no",
+                            "ChoiceLocator": "q://QID4/DisplayableQuestion/1",
+                            "Operator": "NotDisplayed",
+                            "QuestionIDFromLocator": "QID4",
+                            "LeftOperand": "q://QID4/QuestionDisplayed",
+                            "Type": "Expression",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Next, we'd like to understand how your dishwasher usage varies by time of day</span> <span class=\"LeftOpDesc\"></span> <span class=\"OpDesc\">Is Not Displayed</span> "
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                }
+            }
+        }
+    ]
+}

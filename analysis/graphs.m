@@ -57,15 +57,46 @@ figExport(12,8,'flex-0')
 
 %% flex time -- with discount
 
-k = strsplit(num2str(10:10:40));
-for j = 1:numel(k)
+discount = strsplit(num2str(10:10:40));
+for j = 1:numel(discount)
     v = num2str(j);
+    figure
     data = [d.(['x' v '_Q14_1']) d.(['x' v '_Q14_2'])];
     boxplot(data,'Labels',{'Earliest start','Latest start'})
     ylim([-12 12])
     yticks(-12:6:12)
     box off
     n = min(sum(~isnan(data)));
-    title(sprintf('Timing flexibility - %s%% discount (n = %d)',k{j},n))
-    figExport(12,8,['flex-' k{j}])
+    title(sprintf('Timing flexibility - %s%% discount (n = %d)',discount{j},n))
+    figExport(12,8,['flex-' discount{j}])
 end
+
+%% flex time -- xy plot
+
+data = [];
+% add no-discount data
+data(:,:,1) = [d.Q12_1 d.Q12_2];
+% add discount data
+for j = 1:4
+    v = num2str(j);
+    data(:,:,j+1) = [d.(['x' v '_Q14_1']) d.(['x' v '_Q14_2'])];
+end
+
+discount = 0:0.1:0.4;
+price = 1:-0.1:0.6;
+
+figure
+hold on
+for j = 1:size(data,3)
+    try
+boxplot(data(:,:,j),'Widths',0.07,'Positions',[1-1e-5 1+1e-5].*price(j),'Orientation','horizontal','Colors','bm')
+    catch
+    end
+end
+ylim([0.5 1.1])
+ax = gca;
+ax.YAxis.TickValues = 0.6:0.1:1;
+ax.YAxis.TickLabelsMode = 'auto';
+ax.YAxis.Limits = [0.5 1.1];
+
+figExport(12,8,'flex-overview')

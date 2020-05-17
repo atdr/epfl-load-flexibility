@@ -46,6 +46,26 @@ end
 %% flex times -- no discount
 
 figure
-boxplot([d.Q12_1 d.Q12_2],'Labels',{'Earliest start','Latest start'})
-title('Timing flexibility - no discount')
+data = [d.Q12_1 d.Q12_2];
+boxplot(data,'Labels',{'Earliest start','Latest start'})
+ylim([-12 12])
+yticks(-12:6:12)
+box off
+n = min(sum(~isnan(data)));
+title(sprintf('Timing flexibility - no discount (n = %d)',n))
 figExport(12,8,'flex-0')
+
+%% flex time -- with discount
+
+k = strsplit(num2str(10:10:40));
+for j = 1:numel(k)
+    v = num2str(j);
+    data = [d.(['x' v '_Q14_1']) d.(['x' v '_Q14_2'])];
+    boxplot(data,'Labels',{'Earliest start','Latest start'})
+    ylim([-12 12])
+    yticks(-12:6:12)
+    box off
+    n = min(sum(~isnan(data)));
+    title(sprintf('Timing flexibility - %s%% discount (n = %d)',k{j},n))
+    figExport(12,8,['flex-' k{j}])
+end

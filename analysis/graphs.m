@@ -42,3 +42,10 @@ for j = 1:numel(v_name)
 %     title(multilineText(d.Properties.VariableDescriptions{v},5))
     figExport(6,3,['categorical-' v])
 end
+
+%% flex times -- no discount
+
+figure
+boxplot([d.Q12_1 d.Q12_2],'Labels',{'Earliest start','Latest start'})
+title('Timing flexibility - no discount')
+figExport(12,8,'flex-0')

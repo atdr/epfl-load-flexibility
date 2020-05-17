@@ -6,6 +6,9 @@ file = '../survey/Dishwashers Survey_17 May 2020_16.20.csv';
 opts = detectImportOptions(file);
 opts.VariableDescriptionsLine = 2;
 
+% set yes/no questions to categorical type
+opts = setvartype(opts,{'Q11','Q13'},'categorical') ;
+
 d = readtable(file,opts);
 
 %% runs per week
@@ -17,13 +20,25 @@ figExport(12,8,'dishwasher-runs')
 
 %% time of runs -- weekday / weekend
 
-t_label = {'weekday', 'weekend'};
-t_prefix = {'x1', 'x3'};
-for j = 1:numel(t_prefix)
-    t = t_prefix{j};
+v_label = {'weekday', 'weekend'};
+v_prefix = {'x1', 'x3'};
+for j = 1:numel(v_prefix)
+    v = v_prefix{j};
     figure
-    boxplot([d.([t '_Q7_1']) d.([t '_Q8_1']) d.([t '_Q8_2'])],'Labels',{'Most common time','Earliest usual time','Latest usual time'})
+    boxplot([d.([v '_Q7_1']) d.([v '_Q8_1']) d.([v '_Q8_2'])],'Labels',{'Most common time','Earliest usual time','Latest usual time'})
 %     ylim([0 24])
-    title(sprintf('Dishwasher run times on %ss',t_label{j}))
-    figExport(12,8,['dishwasher-times-' t_label{j}])
+    title(sprintf('Dishwasher run times on %ss',v_label{j}))
+    figExport(12,8,['dishwasher-times-' v_label{j}])
+end
+
+%% pie charts for yes/no questions
+
+v_name = {'Q11' 'Q13'};
+for j = 1:numel(v_name)
+    v = v_name{j};
+    figure
+    pie(d.(v))
+%     title(d.Properties.VariableDescriptions{v})
+%     title(multilineText(d.Properties.VariableDescriptions{v},5))
+    figExport(6,3,['categorical-' v])
 end

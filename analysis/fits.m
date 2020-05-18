@@ -11,10 +11,9 @@ opts = setvartype(opts,{'Q11','Q13'},'categorical') ;
 
 d = readtable(file,opts);
 
-%% histogram + fit
+%% histogram + fit -- simple
 
 for q = {'Q2_1' 'Q4_1' 'Q4_2'}
-% for q = {'x1_Q7_1'}
     q = char(q);
 
     figure
@@ -24,16 +23,18 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     % fit skew normal
     fit.(q) = fitdist(d.(q),'EpsilonSkewNormal');
 
-    % plot skew normal
-    sampleRes.(q) = 0:24;
+    % calculate values using skew normal
+    sampleRes.(q) = 0:15;
     fitVals.(q) = pdf(fit.(q),sampleRes.(q));
+    
     plot(sampleRes.(q),fitVals.(q),'LineWidth',2)
     
+    % format plot
     title(q,'Interpreter','none')
-    
+
     figExport(12,8,['fit-' q])
 
-%     % add boxplot for comparison
+%     % add boxplot for comparison (based on Q2_1)
 %     boxplot(d.(q),'Positions',0.19,'Orientation','Horizontal','Colors','g','Widths',0.01)
 %     ax = gca;
 %     ax.YAxis.TickValues = 0:0.05:0.2;

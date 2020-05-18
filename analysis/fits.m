@@ -41,3 +41,36 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
 %     ax.YAxis.TickLabelsMode = 'auto';
 %     ax.YAxis.Limits = [0 0.2];
 end
+
+%% histogram + fit -- 24h time-series w/ loop
+
+for q = {'x1_Q7_1' 'x1_Q8_1' 'x1_Q8_2' 'x3_Q7_1' 'x3_Q8_1' 'x3_Q8_2'}
+    q = char(q);
+
+    figure
+    hold on
+    histogram(d.(q),'Normalization','probability')
+
+    % fit normal
+    fit.(q) = fitdist(d.(q),'Normal');
+
+    % calculate values using normal
+    sampleRes.(q) = -12:36;
+    fitVals.(q) = pdf(fit.(q),sampleRes.(q));
+    
+    % adjust values for 24h window
+    sampleRes.(q) = mod(sampleRes.(q),24);
+    fitVals.(q) = accumarray(sampleRes.(q)'+1,fitVals.(q));
+        % +1 hack necessary to avoid 0 index
+    sampleRes.(q) = 0:23;
+    
+    plot(sampleRes.(q),fitVals.(q),'LineWidth',2)
+    
+    % format plot
+    title(q,'Interpreter','none')
+    ax = gca;
+    ax.XAxis.TickValues = 0:6:24;
+    ax.XAxis.Limits = [0 24];
+    
+    figExport(12,8,['fit-' q])
+end

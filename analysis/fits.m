@@ -30,7 +30,7 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     plot(sampleRes.(q),fitVals.(q),'LineWidth',2)
     
     % format plot
-    title(q,'Interpreter','none')
+    title({strrep(q,'_','\_') sprintf('\\theta = %2.1f, \\sigma = %2.1f, \\epsilon = %1.2f',fit.(q).Theta,fit.(q).Sigma,fit.(q).Epsilon)})
 
     figExport(12,8,['fit-' q])
 
@@ -67,7 +67,7 @@ for q = {'x1_Q7_1' 'x1_Q8_1' 'x1_Q8_2' 'x3_Q7_1' 'x3_Q8_1' 'x3_Q8_2'}
     plot(sampleRes.(q),fitVals.(q),'LineWidth',2)
     
     % format plot
-    title(q,'Interpreter','none')
+    title({strrep(q,'_','\_') sprintf('\\mu = %2.1f, \\sigma = %2.1f',fit.(q).mu,fit.(q).sigma)})
     ax = gca;
     ax.XAxis.TickValues = 0:6:24;
     ax.XAxis.Limits = [0 24];

@@ -93,7 +93,6 @@ boxplot(data(:,:,j),'Widths',0.07,'Positions',[1-1e-5 1+1e-5].*price(j),'Orienta
     catch
     end
 end
-ylim([0.5 1.1])
 ax = gca;
 ax.YAxis.TickValues = 0.6:0.1:1;
 ax.YAxis.TickLabelsMode = 'auto';

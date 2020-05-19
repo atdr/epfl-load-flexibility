@@ -11,7 +11,7 @@ opts = setvartype(opts,{'Q11','Q13'},'categorical') ;
 
 d = readtable(file,opts);
 
-%% histogram + fit -- simple
+%% histogram + fit -- weekly runs
 
 for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     q = char(q);
@@ -32,7 +32,7 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     % format plot
     title({strrep(q,'_','\_') sprintf('\\theta = %2.1f, \\sigma = %2.1f, \\epsilon = %1.2f',fit.(q).Theta,fit.(q).Sigma,fit.(q).Epsilon)})
 
-    figExport(12,8,['fit-' q])
+    figExport(7,5,['fit-' q])
 
 %     % add boxplot for comparison (based on Q2_1)
 %     boxplot(d.(q),'Positions',0.19,'Orientation','Horizontal','Colors','g','Widths',0.01)

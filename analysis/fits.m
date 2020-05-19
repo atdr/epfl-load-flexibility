@@ -76,6 +76,10 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     
     % add boxplot for comparison (based on Q2_1)
     boxplot(d_.(q),'Positions',0.75,'Orientation','Horizontal','Widths',0.1)
+    
+    % calculate quantiles
+    quants.(q) = quantile(d_.(q),3);
+    
     ax = gca;
     ax.YAxis.TickValues = 0:0.5:1;
     ax.YAxis.TickLabelsMode = 'auto';
@@ -125,3 +129,41 @@ price_file = 'elec-price.csv';
 opts = detectImportOptions(price_file);
 opts.VariableUnitsLine = 2;
 p = readtable(price_file,opts);
+
+%% plot price data
+
+figure
+plot(p.time,p.price)
+ax = gca;
+ax.XAxis.TickValues = 0:6:24;
+ax.XAxis.Limits = [0 24];
+
+%% plot time series with daily runs multiplier
+
+for q = {'x1_Q7_1' 'x3_Q7_1'}
+    q = char(q);
+    
+    % set a variable with the Q containing runs per day info
+    switch q
+        case 'x1_Q7_1' % weekdays
+            q_daily = 'Q4_1';
+        case 'x3_Q7_1' % weekends
+            q_daily = 'Q4_2';
+    end
+    
+    figure
+    hold on
+    
+    plot(sampleRes.(q),fitVals.(q),'DisplayName','original demand');
+    for j = 1:3
+        plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(j),'DisplayName',sprintf('adjusted - quartile %i (%0.2f\\times)',j,quants.(q_daily)(j)));
+    end
+    legend('Location','southoutside','NumColumns',2)
+    
+    % overlay price
+    yyaxis right
+    plot(p.time,p.price,'DisplayName','electricity price')
+    
+    figExport(12,8,['daily-time-series-' q])
+end
+

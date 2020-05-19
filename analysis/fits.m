@@ -75,7 +75,7 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     title({strrep(q,'_','\_') sprintf('\\theta = %2.1f, \\sigma = %2.1f, \\epsilon = %1.2f',fit.(q).Theta,fit.(q).Sigma,fit.(q).Epsilon)})
     
     % add boxplot for comparison (based on Q2_1)
-    boxplot(d_.(q),'Positions',0.75,'Orientation','Horizontal','Colors',[0.4660 0.6740 0.1880],'Widths',0.1)
+    boxplot(d_.(q),'Positions',0.75,'Orientation','Horizontal','Widths',0.1)
     ax = gca;
     ax.YAxis.TickValues = 0:0.5:1;
     ax.YAxis.TickLabelsMode = 'auto';

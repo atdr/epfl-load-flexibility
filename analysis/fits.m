@@ -191,6 +191,12 @@ flex_data = flex_data(~isnan(flex_data(:,2)),:);
 % apply custom polynomial fit
 [flexfit, flexgof] = createFit(flex_data(:,2),flex_data(:,1));
 
+% format plot
+legend('off')
+title(sprintf('R^2 = %1.2f',flexgof.rsquare))
+
+% figExport(7,5,'flex-median-fit')
+
 %% electricity price plot with flexibility curve
 
 figure

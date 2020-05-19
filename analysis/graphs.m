@@ -98,4 +98,4 @@ ax.YAxis.TickValues = 0.6:0.1:1;
 ax.YAxis.TickLabelsMode = 'auto';
 ax.YAxis.Limits = [0.5 1.1];
 
-figExport(12,8,'flex-overview')
+figExport(7,5,'flex-overview')

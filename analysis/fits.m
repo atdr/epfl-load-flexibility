@@ -208,13 +208,13 @@ for j = {'weekday' 'weekend'}
     end
     
     % find index of maximum point in fitted data
-    [~,I] = max(fitVals.(demand_var));
+    [~,i_max] = max(fitVals.(demand_var));
     % return corresponding time & price
-    peakTime = sampleRes.(demand_var)(I);
-    peakPrice = p.price(I);
+    peakTime = sampleRes.(demand_var)(i_max);
+    peakPrice = p.price(i_max);
     
     % add peak point to the plot
-    stem(peakTime,peakPrice,'o','DisplayName',['peak - ' j]);
+    stem(peakTime,peakPrice,'o','DisplayName',sprintf('peak - %s (%i:00)',j,peakTime));
     
     legend('Location','southoutside','NumColumns',2)
     
@@ -228,7 +228,23 @@ for j = {'weekday' 'weekend'}
     % plot flexibility function around peak time
     plot(peakTime+x_sample,flex_sample,'DisplayName',['price flexibility - ' j])
     
+    % find intercept between flexibility function and price
+    [xi, yi] = polyxpoly(p.time,p.price,peakTime+x_sample,flex_sample);
+    plot(xi,yi,'.','DisplayName',['intercept - ' j]);
     
 end
 
-% figExport(14,8,'elec-price-peaks-flex');
+% find minimum electricity price
+[minPrice,i_min] = min(p.price);
+% plot minimum
+plot(p.time(i_min),minPrice,'*','DisplayName',sprintf('minimum price - %2.1f EUR/MWh',minPrice))
+
+% format plot
+ax = gca;
+ax.YAxis.Label.String = 'electricity price [EUR/MWh]';
+ax.YAxis.Limits = [10 30];
+ax.XAxis.Label.String = 'time [h]';
+ax.XAxis.Limits = [0 24];
+ax.XAxis.TickValues = 0:6:24;
+
+% figExport(14,10,'elec-price-peaks-flex');

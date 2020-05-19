@@ -118,3 +118,10 @@ for q = {'x1_Q7_1' 'x1_Q8_1' 'x1_Q8_2' 'x3_Q7_1' 'x3_Q8_1' 'x3_Q8_2'}
     
     figExport(12,8,['fit-' q])
 end
+
+%% import price data
+
+price_file = 'elec-price.csv';
+opts = detectImportOptions(price_file);
+opts.VariableUnitsLine = 2;
+p = readtable(price_file,opts);

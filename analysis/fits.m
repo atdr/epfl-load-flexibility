@@ -32,7 +32,7 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     % format plot
     title({strrep(q,'_','\_') sprintf('\\theta = %2.1f, \\sigma = %2.1f, \\epsilon = %1.2f',fit.(q).Theta,fit.(q).Sigma,fit.(q).Epsilon)})
 
-    figExport(7,5,['fit-' q])
+%     figExport(7,5,['fit-' q])
 
 %     % add boxplot for comparison (based on Q2_1)
 %     boxplot(d.(q),'Positions',0.19,'Orientation','Horizontal','Colors','g','Widths',0.01)
@@ -87,7 +87,7 @@ for q = {'Q2_1' 'Q4_1' 'Q4_2'}
     ax.XAxis.TickValues = 0:2;
     ax.XAxis.Limits = [0 2.5];
 
-    figExport(7,5,['fit-daily-' q])
+%     figExport(7,5,['fit-daily-' q])
 end
 
 %% histogram + fit -- 24h time-series w/ loop
@@ -120,7 +120,7 @@ for q = {'x1_Q7_1' 'x1_Q8_1' 'x1_Q8_2' 'x3_Q7_1' 'x3_Q8_1' 'x3_Q8_2'}
     ax.XAxis.TickValues = 0:6:24;
     ax.XAxis.Limits = [0 24];
     
-    figExport(12,8,['fit-' q])
+%     figExport(7,5,['fit-' q])
 end
 
 %% import price data
@@ -158,13 +158,13 @@ for q = {'x1_Q7_1' 'x3_Q7_1'}
     for j = 1:3
         plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(j),'DisplayName',sprintf('adjusted - quartile %i (%0.2f\\times)',j,quants.(q_daily)(j)));
     end
-    legend('Location','southoutside','NumColumns',2)
+    legend('Location','southoutside')
     
     % overlay price
     yyaxis right
     plot(p.time,p.price,'DisplayName','electricity price')
     
-    figExport(12,8,['daily-time-series-' q])
+%     figExport(7,7,['daily-time-series-' q])
 end
 
 %% fit the flexibility data

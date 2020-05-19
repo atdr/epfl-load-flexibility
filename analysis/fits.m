@@ -155,16 +155,21 @@ for q = {'x1_Q7_1' 'x3_Q7_1'}
     hold on
     
     plot(sampleRes.(q),fitVals.(q),'DisplayName','original demand');
-    for j = 1:3
-        plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(j),'DisplayName',sprintf('adjusted - quartile %i (%0.2f\\times)',j,quants.(q_daily)(j)));
-    end
+    % plot all quartiles
+%     for j = 1:3
+%         plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(j),'DisplayName',sprintf('adjusted - quartile %i (%0.2f\\times)',j,quants.(q_daily)(j)));
+%     end
+    
+    % plot median
+    plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(2),'DisplayName',sprintf('adjusted (%0.2f\\times)',quants.(q_daily)(2)));
+    
     legend('Location','southoutside')
     
     % overlay price
     yyaxis right
     plot(p.time,p.price,'DisplayName','electricity price')
     
-%     figExport(7,7,['daily-time-series-' q])
+%     figExport(7,5,['daily-time-series-' q])
 end
 
 %% fit the flexibility data
@@ -226,4 +231,4 @@ for j = {'weekday' 'weekend'}
     
 end
 
-figExport(14,8,'elec-price-peaks-flex');
+% figExport(14,8,'elec-price-peaks-flex');

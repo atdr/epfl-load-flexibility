@@ -25,10 +25,10 @@ v_prefix = {'x1', 'x3'};
 for j = 1:numel(v_prefix)
     v = v_prefix{j};
     figure
-    boxplot([d.([v '_Q7_1']) d.([v '_Q8_1']) d.([v '_Q8_2'])],'Labels',{'Most common time','Earliest usual time','Latest usual time'})
+    boxplot([d.([v '_Q7_1']) d.([v '_Q8_1']) d.([v '_Q8_2'])],'Labels',{'Usual','Earliest','Latest'})
 %     ylim([0 24])
     title(sprintf('Dishwasher run times on %ss',v_label{j}))
-    figExport(12,8,['dishwasher-times-' v_label{j}])
+    figExport(7,5,['dishwasher-times-' v_label{j}])
 end
 
 %% pie charts for yes/no questions

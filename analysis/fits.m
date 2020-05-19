@@ -185,3 +185,45 @@ flex_data = flex_data(~isnan(flex_data(:,2)),:);
 
 % apply custom polynomial fit
 [flexfit, flexgof] = createFit(flex_data(:,2),flex_data(:,1));
+
+%% electricity price plot with flexibility curve
+
+figure
+hold on
+plot(p.time,p.price,'DisplayName','electricity price')
+
+% plot weekday and weekend peaks
+for j = {'weekday' 'weekend'}
+    j = char(j);
+    switch j
+        case 'weekday'
+            demand_var = 'x1_Q7_1';
+        case 'weekend'
+            demand_var = 'x3_Q7_1';
+    end
+    
+    % find index of maximum point in fitted data
+    [~,I] = max(fitVals.(demand_var));
+    % return corresponding time & price
+    peakTime = sampleRes.(demand_var)(I);
+    peakPrice = p.price(I);
+    
+    % add peak point to the plot
+    stem(peakTime,peakPrice,'o','DisplayName',['peak - ' j]);
+    
+    legend('Location','southoutside','NumColumns',2)
+    
+    % calculate flexibility function
+    x_sample = -10:10;
+    flex_sample = flexfit(x_sample);
+
+    % adjust flexibility function to peak price
+    flex_sample = peakPrice * flex_sample;
+    
+    % plot flexibility function around peak time
+    plot(peakTime+x_sample,flex_sample,'DisplayName',['price flexibility - ' j])
+    
+    
+end
+
+figExport(14,8,'elec-price-peaks-flex');

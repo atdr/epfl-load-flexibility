@@ -154,7 +154,7 @@ for q = {'x1_Q7_1' 'x3_Q7_1'}
     figure
     hold on
     
-    plot(sampleRes.(q),fitVals.(q),'DisplayName','original demand');
+    plot(sampleRes.(q),fitVals.(q),'--','DisplayName','original demand');
     % plot all quartiles
 %     for j = 1:3
 %         plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(j),'DisplayName',sprintf('adjusted - quartile %i (%0.2f\\times)',j,quants.(q_daily)(j)));
@@ -163,7 +163,7 @@ for q = {'x1_Q7_1' 'x3_Q7_1'}
     % plot median
     plot(sampleRes.(q),fitVals.(q)*quants.(q_daily)(2),'DisplayName',sprintf('adjusted (%0.2f\\times)',quants.(q_daily)(2)));
     
-    legend('Location','southoutside')
+    legend('Location','northoutside')
     
     % overlay price
     yyaxis right

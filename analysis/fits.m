@@ -172,24 +172,16 @@ end
 % collect the data together
 flex_data = [];
 % add no-discount data
-flex_data = [flex_data; ones(40,1) d.Q12_1; ones(40,1) d.Q12_2];
+% flex_data = [flex_data; ones(40,1) d.Q12_1; ones(40,1) d.Q12_2];
+flex_data = [flex_data; 1 quantile(d.Q12_1,0.5); 1 quantile(d.Q12_2,0.5)];
 % add discount data
 for j = 1:4
     v = num2str(j);
-    flex_data = [flex_data; ones(40,1)*(1-0.1*j) d.(['x' v '_Q14_1']); ones(40,1)*(1-0.1*j) d.(['x' v '_Q14_2'])];
+%     flex_data = [flex_data; ones(40,1)*(1-0.1*j) d.(['x' v '_Q14_1']); ones(40,1)*(1-0.1*j) d.(['x' v '_Q14_2'])];
+    flex_data = [flex_data; (1-0.1*j) quantile(d.(['x' v '_Q14_1']),0.5); (1-0.1*j) quantile(d.(['x' v '_Q14_2']),0.5)];
 end
 % remove NaN values
 flex_data = flex_data(~isnan(flex_data(:,2)),:);
 
-% plot the data
-plot(flex_data(:,2),flex_data(:,1),'.')
-hold on
-
-% do a polynomial fit
-[pf,S,mu] = polyfit(flex_data(:,2),flex_data(:,1),2);
-
-% calculate & plot polynomial values
-x_sample = -15:15;
-plot(x_sample,polyval(pf,x_sample));
-
-ylim([0.5 1.1]);
+% apply custom polynomial fit
+[flexfit, flexgof] = createFit(flex_data(:,2),flex_data(:,1));
